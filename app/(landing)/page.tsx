@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { LandingVideo } from "@/components/video";
 import { FeatureCards } from "./ui/feature";
+import { PricingCards } from "./ui/pricing";
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center justify-center space-y-8 m-4">
         <FeatureCards />
+      </div>
+      <div className="flex flex-col items-center justify-center space-y-8 m-4">
+        <PricingCards />
       </div>
       
       

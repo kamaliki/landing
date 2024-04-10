@@ -1,8 +1,8 @@
 import Link from "next/link"
 
-// import { siteConfig } from "@/config/site"
+import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
-// import { CommandMenu } from "@/components/command-menu"
+import { CommandMenu } from "./command-menu"
 import { Icons } from "@/components/icons"
 import { MainNav } from "./main-nav"
 import { MobileNav } from "./mobile-nav"
@@ -20,7 +20,7 @@ export function SiteHeader() {
             <CommandMenu />
           </div> */}
           <nav className="flex items-center">
-            {/* <Link
+            <Link
               href={siteConfig.links.github}
               target="_blank"
               rel="noreferrer"
@@ -53,7 +53,7 @@ export function SiteHeader() {
                 <Icons.twitter className="h-3 w-3 fill-current" />
                 <span className="sr-only">Twitter</span>
               </div>
-            </Link> */}
+            </Link>
             {/* <ModeToggle /> */}
           </nav>
         </div>

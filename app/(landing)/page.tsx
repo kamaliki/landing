@@ -21,6 +21,17 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center space-y-8 m-4">
         <PricingCards />
       </div>
+      <div className="flex flex-col items-center justify-center space-y-8 m-4">
+       
+        <h1 className="text-6xl font-bold text-center">
+          About Us
+        </h1>
+        <p className="text-xl text-center text-muted-foreground">
+          Your one stop shop for all things roofing
+        </p>
+
+        
+      </div>
       
       
     </main>
